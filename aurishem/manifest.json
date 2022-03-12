@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Aurishem",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/coolfool/aurishem-extension",
+  "description": "Install packages directly from aur.archlinux.org",
+  "icons": {
+    "48": "icons/aurishem-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://aur.archlinux.org/cgit/aur.git/tree/PKGBUILD?h=*"],
+      "js": ["js/index.js"]
+    }
+  ]
+
+}
