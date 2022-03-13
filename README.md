@@ -1,5 +1,5 @@
 <div align="center" id = "top">
-  <img src="aurishem.png"  alt="aurishem logo"/>
+  <img src="static/aurishem.png"  alt="aurishem logo"/>
   <h3>Safe and Easy way to build and install packages directly from <a href="https://aur.archlinux.org">Arch User Repository</a></h3> 
 </div>
 
@@ -16,10 +16,10 @@
 
 ## Features
 
-- Uses policy-kit instead of sudo for installing dependencies and package
+- Uses policy-kit instead of `sudo` for installing dependencies and package
 - Install directly from [aur.archlinux.org](https://aur.archlinux.org)
-- One click install ONLY after scrolling through PKGBUILD
-- Delete cloned files after install
+- One click install **only** after scrolling through PKGBUILD
+- Delete build files after install
 - Excellent logging system and view live install using `tail -f` if required
 - Get notified at each step
 
@@ -27,19 +27,23 @@
 - There are two parts to installing aurishem
   ### 1) Install the aurishem backend
   - #### From Arch User Repository using aur helpers
-    - ```yay -S aurishem```
-    - ```paru -S aurishem```
+    - ```yay -S aurishem``` **OR**  ```paru -S aurishem```
+    - If using any other aur helper lookup the command for installing packages and install accordingly
   - #### Building the package manually
-    - ```git clone https://aur.archlinux.org/aursihem.git```
+    - ```git clone https://aur.archlinux.org/aurishem.git```
     - ```cd aurishem```
     - ```makepkg -si```
   ### 2) Install browser extension
   - #### Mozilla Firefox
-    - link
+    - [![Firefox Addon](https://raw.githubusercontent.com/CoolFool/aurishem-extension/main/static/get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/aurishem/)
   - #### Microsoft Edge
-    - link
+    - **Coming Soon**
   - #### Chrome/Chromium
-    - link
+    - **Publishing to Chrome Webstore requires creating an account,for the time being follow the steps provided below:**
+      - Download this repo locally
+      - Visit `chrome://extensions` in Google Chrome/Chromium
+      - Click on **Load Unpacked**
+      - Select the **aurishem** directory from the locally downloaded copy of this repo
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Contributing
