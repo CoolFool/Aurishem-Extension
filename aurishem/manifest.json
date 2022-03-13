@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
   "name": "Aurishem",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage_url": "https://github.com/coolfool/aurishem-extension",
-  "description": "Install packages directly from aur.archlinux.org",
+  "description": "Safe and Easy way to build and install packages directly from Arch User Repository",
   "icons": {
     "48": "icons/aurishem-48.png"
   },

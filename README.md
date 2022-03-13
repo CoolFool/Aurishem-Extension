@@ -12,7 +12,25 @@
 - [License](#License)
 
 ## Screenshots and Demo
-- Coming soon
+<details open="open">
+    <summary>Screenshots</summary>
+
+| Policy Kit Prompt             | Live Log                  |
+|-------------------------------|---------------------------|
+| `Coming Soon`                 | `Coming soon`             |
+| **Informative Notifications** | **Install button on AUR** |
+| `Coming Soon`                 | `Coming soon`             |
+
+</details>
+
+<details open="open">
+    <summary>Demo</summary>
+
+| Demo          |
+|---------------|
+| `Coming Soon` |
+
+</details>
 
 ## Features
 
@@ -35,7 +53,7 @@
     - ```makepkg -si```
   ### 2) Install browser extension
   - #### Mozilla Firefox
-    - [![Firefox Addon](https://raw.githubusercontent.com/CoolFool/aurishem-extension/main/static/get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/aurishem/)
+    [![Firefox Addon](https://raw.githubusercontent.com/CoolFool/aurishem-extension/main/static/get-the-addon.png)](https://addons.mozilla.org/en-US/firefox/addon/aurishem/)
   - #### Microsoft Edge
     - **Coming Soon**
   - #### Chrome/Chromium
