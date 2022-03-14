@@ -12,8 +12,6 @@
 - [License](#License)
 
 ## Screenshots
-<details open="open">
-    <summary>Screenshots</summary>
 
 | Install button on PKGBUILD page                                                                                       | Informative Notifications                                                                                                |
 |-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -21,7 +19,7 @@
 | **Policy Kit Prompt**                                                                                                 | **Live Log using** `tail -f`                                                                                             |
 | ![Policy Kit Prompt](https://raw.githubusercontent.com/CoolFool/aurishem-extension/main/static/policy-kit-prompt.png) | ![Live Log](https://raw.githubusercontent.com/CoolFool/aurishem-extension/main/static/live-log.png)                      |
 
-</details>
+
 
 ## Features
 
